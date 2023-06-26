@@ -16,8 +16,10 @@ button {
   background: rgb(98, 232, 98);
 }
 
-button::first-letter {
+button:hover {
   opacity: 0.5;
+  box-shadow: 1px 1px 12px black;
+  color: #fff;
 }
 
 .btnDiv {
